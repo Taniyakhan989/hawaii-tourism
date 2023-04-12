@@ -18,7 +18,7 @@ const HeroImage: React.FC<HeroImageProps> = ({ image, text, textStyle, imageProp
             {!image && <div className='h-560px w-full bg-light flex' />}
 			<div className='absolute lg:top-0 top-20 left-0 w-full h-560px z-10'>
 				<div className='flex flex-col items-center justify-center h-full px-6'>
-					<h1 className={mono.className + ' text-8xl lg:text-9xl xl:text-9xl text-center font-bold xl:max-w-6xl lg:max-w-4xl w-full lg:mt-14 ' + (textStyle ? textStyle : '')}>{text}</h1>
+					<h1 className={mono.className + ' text-6xl lg:text-9xl xl:text-9xl text-center font-bold xl:max-w-6xl lg:max-w-4xl w-full lg:mt-14 ' + (textStyle ? textStyle : '')}>{text}</h1>
 				</div>
 			</div>
         </>

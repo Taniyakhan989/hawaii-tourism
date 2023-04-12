@@ -11,7 +11,7 @@ const ActivityPage: React.FC<any> = ({ data, highlights }): JSX.Element => {
     return (
         <div className='flex flex-col items-center'>
 			<NavBar data={highlights} />
-            <HeroImage image={data.image} text={data.name} imageProps={{width: 1920, height: 1080}} textStyle='text-white' />
+            <HeroImage image={data.image} text={data.name} imageProps={{width: 500, height: 500}} textStyle='text-white' />
             <Description description={data.description} />
             <Activities data={data.activities} />
 			<Footer />

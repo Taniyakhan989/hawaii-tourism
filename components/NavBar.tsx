@@ -43,7 +43,7 @@ const NavBar: React.FC<NavBarProps> = ({ data }): JSX.Element => {
                     </li>
                     {data.map((item, index) => (
                         <li key={index}>
-                            <Link href={"/highlight/" + item.title} className={mono.className}>{item.title}</Link>
+                            <Link href={"/highlight/" + item.title} className={mono.className} onClick={() => setOpen(false)}>{item.title}</Link>
                         </li>
                     ))}
                     <li>
