@@ -20,7 +20,7 @@ const HighlightCard: React.FC<HighlightCardProps> = ({ image, title, description
             </div>
             <h3 className={'p-6 font-bold text-green text-2xl ' + mono.className}>{title}</h3>
             <p className={'p-6 pt-0 text-dark text-base font-normal pb-20 ' + mono.className}>{description}</p>
-            <IconButton icon={<FiArrowRight color='#008080' size='20' />} styling='bg-light rounded-full w-9 h-9 mr-6 mb-6 absolute right-0 bottom-0' />
+            <IconButton icon={<FiArrowRight size='20' className='text-green group-hover:text-light transition ease-in-out duration-200' />} styling='group bg-light hover:bg-green rounded-full w-9 h-9 mr-6 mb-6 absolute right-0 bottom-0 transition ease-in-out duration-200' />
         </div>
     );
 };
