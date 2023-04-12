@@ -4,7 +4,6 @@ import { API_URL } from "@/config";
 class apiControllerv1 {
     static async getHighlights() {
         const response = await axios.get(`${API_URL}/v1/highlights`);
-        console.log(response)
         return response.data;
     }
 
