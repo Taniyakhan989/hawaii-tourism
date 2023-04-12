@@ -14,7 +14,7 @@ const NavBar: React.FC = (): JSX.Element => {
 
     return (
         <>
-            <nav className='bg-white h-20 xl:max-w-6xl lg:max-w-4xl  w-full flex flex-row p-6 lg:top-6 lg:rounded-xl lg:absolute items-center justify-between'>
+            <nav className='bg-white h-20 xl:max-w-6xl lg:max-w-4xl  w-full flex flex-row p-6 lg:top-6 lg:rounded-xl lg:absolute items-center justify-between z-20'>
                 <div className='flex flex-row justify-between gap-20'>
                     <Image src={AlohaLogo} alt='logo' className='h-9' />
                     <ul className='flex-row items-center gap-10 text-dark md:flex hidden'>
