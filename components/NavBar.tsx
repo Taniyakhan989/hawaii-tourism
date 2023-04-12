@@ -19,16 +19,16 @@ const NavBar: React.FC = (): JSX.Element => {
                     <Image src={AlohaLogo} alt='logo' className='h-9' />
                     <ul className='flex-row items-center gap-10 text-dark md:flex hidden'>
                         <li>
-                            <a href="/" className={mono.className}>Home</a>
+                            <a href="/" className={'transition ease-in-out duration-200 hover:text-green ' + mono.className}>Home</a>
                         </li>
                         <li>
-                            <a href="/#" className={mono.className}>Surfing</a>
+                            <a href="/#" className={'transition ease-in-out duration-200 hover:text-green ' + mono.className}>Surfing</a>
                         </li>
                         <li>
-                            <a href="/#" className={mono.className}>Hula</a>
+                            <a href="/#" className={'transition ease-in-out duration-200 hover:text-green ' + mono.className}>Hula</a>
                         </li>
                         <li>
-                            <a href="/#" className={mono.className}>Volcano</a>
+                            <a href="/#" className={'transition ease-in-out duration-200 hover:text-green ' + mono.className}>Volcano</a>
                         </li>
                     </ul>
                 </div>
