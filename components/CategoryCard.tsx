@@ -12,8 +12,8 @@ interface CategoryCardProps {
 
 const CategoryCard: React.FC<CategoryCardProps> = ({ name }): JSX.Element => {
     return (
-        <div className='flex flex-row w-full bg-white p-6 rounded-lg'>
-            <p className={'text-dark ' + mono.className}>{name}</p>
+        <div className='flex flex-row w-full bg-white p-6 rounded-lg items-center'>
+            <p className={'text-dark font-regular ' + mono.className}>{name}</p>
             <IconButton icon={<FiArrowRight color='#008080' size={20} />} styling='ml-auto hover:bg-light rounded-full w-9 h-9 transition ease-in-out duration-200' />
         </div>
     );
