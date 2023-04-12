@@ -3,7 +3,16 @@ A website to promote tourism in Hawaii, made for an assignment by [KIMO](https:/
 
 ## Getting Started
 
-First, run the development server:
+First, install the dependencies for the project
+```bash
+npm i
+# or
+yarn
+# or
+pnpm i
+```
+
+Next, run the development server:
 
 ```bash
 npm run dev
